@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>472</width>
+    <height>338</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Конвертор валют</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QPushButton" name="calc_btn">
+           <property name="text">
+            <string>Калькулятор</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="currency_btn">
+           <property name="text">
+            <string>Валюты</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="crypto_currency_btn">
+           <property name="text">
+            <string>Криптовалюты</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="search_btn">
+           <property name="text">
+            <string>Поиск</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>472</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout_App"/>
+   </widget>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAbout_App">
+   <property name="text">
+    <string>About App</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
